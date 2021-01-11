@@ -1,0 +1,52 @@
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.launching {
+    background-image: url('../../img/back1.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    background-image: url('../../img/back1.jpg');
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header {
+    font-size: 50px;
+    letter-spacing: 8px;
+    font-family: 'Oswald';
+}
+
+.Mitr {
+    font-family: 'Mitr';
+}
+
+.Mitr-Medium {
+    font-family: 'Mitr-Medium';
+}
+
+@import "../../assets/scss/style.scss";
+@font-face {
+    font-family: 'Oswald';
+    src: local('Open Sans'), local('OpenSans'), url('fonts/Oswald-Regular.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Mitr';
+    src: local('Open Sans'), local('OpenSans'), url('fonts/Mitr-Light.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Mitr-Medium';
+    src: local('Open Sans'), local('OpenSans'), url('fonts/Mitr-Medium.ttf') format('truetype')
+}
